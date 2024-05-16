@@ -60,59 +60,59 @@ body, input,textarea, a{
 }
 .info-details li a {
     color: #fff;
-OBOB    text-decoration: none;
-OB}
+    text-decoration: none;
+}
 .info-details li a:hover {
     color: #F44770;
-OB}
+}
 .social-icons {
-OBOBOB    list-style: none;
-OB    text-align: center;
+    list-style: none;
+    text-align: center;
     margin: 20px 0px;
-OB}
+}
 .social-icons li {
     display: inline-block;
-OBOB}
+}
 .social-icons li i {
-OB    background: #F44770;
+    background: #F44770;
     color: #fff;
     padding: 15px;
-OB    font-size: 20px;
-OB    border-radius: 22%;
+    font-size: 20px;
+    border-radius: 22%;
     margin: 0px 5px;
     cursor: pointer;
-OB    transition: all .5s;
+    transition: all .5s;
 }
 .social-icons li i:hover {
     background: #fff;
     color: #000000;
 }
-OBOBOB.form-wrap{
-OB    width:65%;
+.form-wrap{
+    width:65%;
     float: right;
-OBOBOBOBOB    padding:40px 25px 35px 25px;
-OBOB    border-radius: 0px 30px 30px 0px;
-OB    background: #ecf0f3;
+    padding:40px 25px 35px 25px;
+    border-radius: 0px 30px 30px 0px;
+    background: #ecf0f3;
 }
-OBOBOBOBOBOBOB.form-title{
-OB    text-align: left;
-OB    margin-left: 23px;
-OBOB    font-size: 28px;
+.form-title{
+    text-align: left;
+    margin-left: 23px;
+    font-size: 28px;
     letter-spacing: 0.5px;
 }
 .form-fields{
     display: table;
     width: 100%;
     padding: 15px 5px 5px 5px;
-OBOBOB}
+}
 .form-fields input,
 .form-fields textarea{
-OB    border: none;
+    border: none;
     outline:none;
     background: none;
     font-size: 18px;
     color:#555;
-OB    padding: 20px 10px 20px 5px;
+    padding: 20px 10px 20px 5px;
     width:100%
 }
 .form-fields textarea{
@@ -124,24 +124,24 @@ body, input,textarea, a{
     float: left;
     padding: 0px 30px;
     margin: 14px 12px;
-OBOB    border-radius: 25px;
-OB    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
-OB}
-OBOBOBOBOBOBOB.form-fields .form-group:last-child {
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+.form-fields .form-group:last-child {
     width: 96%;
-OB}
+}
 .submit-button{
-OBOB    width: 96%;
-OBOBOBOBOBOB    height: 60px;
-OB    margin: 0px 12px;
+    width: 96%;
+    height: 60px;
+    margin: 0px 12px;
     border-radius: 30px;
-OB    font-size: 20px;;
-OBOB    font-weight: 700;
+    font-size: 20px;;
+    font-weight: 700;
     outline: none;
     border:none;
-OBOBOB    cursor: pointer;
+    cursor: pointer;
     color:#fff;
-OBOBOB    text-align: center;
+    text-align: center;
     background: #F44770;
     box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
     transition: .5s;
@@ -183,5 +183,7 @@ body, input,textarea, a{
     }
    
 }
+
+
 
 
