@@ -223,6 +223,8 @@ b{
 footer {
     background-color: #333;
     color: #fff;
+    position: relative;
+    /* height: 50px; */
     padding: 20px;
     text-align: center;
      /* background-repeat: repeat; */
@@ -234,12 +236,13 @@ footer {
     /* position: fixed;
     bottom: 0;*/
     /* padding-top:100px; */
-    /* margin-top: 500px; */
-    overflow: hidden;
+    margin-top: 440px;
+    /* margin-top: clamp(100px, 440px, 440px); */
+    /* overflow: hidden; */
     width: 100%;
     bottom: 0pt;
     left: 0pt;
-    position: fixed;
+    /* position: fixed; */
     /* height: 40px; */
     z-index: -100; 
 
