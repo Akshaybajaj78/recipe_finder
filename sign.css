@@ -91,6 +91,10 @@ body{
 .form input.comfirm_pass{
   margin-bottom: 5px;
 }
+.form input.phone{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
 .login_btn{
   font-size: 20px;
