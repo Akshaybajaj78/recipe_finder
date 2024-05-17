@@ -58,7 +58,7 @@
                 <a href="aboutus.html">About Us</a>
               </div>
               <div class="footer-link-item">
-                <a href="contact.html">Contact Us</a>
+                <a href="#">Go to Top</a>
               </div>
             </div>
             <p>&copy; 2023 Tasty Tracks. All rights reserved.</p>
@@ -66,5 +66,48 @@
     
 
     <script src="script.js"></script>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <h2>Welcome to Tasty Tracks!</h2><br>
+            <a href="signup.html"><button onclick="openSigninPopup()" id="signup-button">Sign In</button></a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Function to open popup
+        function openPopup() {
+            // Check if the user has already signed up
+            var hasSignedUp = localStorage.getItem('hasSignedUp');
+            if (!hasSignedUp) {
+                document.getElementById("popup").style.display = "block";
+            }
+        }
+
+        // Function to close popup
+        function closePopup() {
+            document.getElementById("popup").style.display = "none";
+        }
+
+        // Function to open signup popup
+        function openSignupPopup() {
+            closePopup();
+            document.getElementById("signup-popup").style.display = "block";
+        }
+
+        // Function to open signin popup
+        function openSigninPopup() {
+            closePopup();
+            // Set a flag indicating that the user has signed up
+            localStorage.setItem('hasSignedUp', true);
+            document.getElementById("signin-popup").style.display = "block";
+        }
+
+        // Show popup after 5 seconds
+        setTimeout(openPopup, 5000);
+    </script>
+
+
 </body>
 </html>
